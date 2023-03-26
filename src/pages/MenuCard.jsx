@@ -20,7 +20,7 @@ const MenuCard = () => {
                         <div className='item-info'>
                             <header>
                                <h4>{item.title}</h4>
-                               <span className='price'>{item.price}</span>
+                               <span className='price'>${item.price}</span>
                             </header>
                             <p>{item.desc}</p>
 
